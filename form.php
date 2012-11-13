@@ -20,6 +20,8 @@ $form->label('Colour: ');
 $form->select('colour', array('red' => 'Red', 'blue' => 'Blue'));
 $form->br();
 
+$form->custom('HEY HOW YOU DOING');
+$form->br();
 
 $form->submit();
 

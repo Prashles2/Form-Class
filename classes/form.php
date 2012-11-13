@@ -115,6 +115,11 @@ Class Form {
 		$this->form .= "<br/>\n";
 	}
 
+	public function custom($string) 
+	{
+		$this->form .= $string;
+	}
+
 	public function show()
 	{
 		$this->form .= '</form>';
