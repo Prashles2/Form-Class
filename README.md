@@ -33,3 +33,5 @@ Below is some sample usage:
 	$form->submit();
 
 	echo $form->show()
+
+More sample code in 'form.php'
