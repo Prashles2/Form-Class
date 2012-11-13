@@ -26,3 +26,5 @@ $form->br();
 $form->submit();
 
 echo $form->show();
+
+require_once 'classes/form.php';
